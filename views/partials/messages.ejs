@@ -1,0 +1,10 @@
+<div>
+  <% messagesArray.map((message) => { %>
+    <div class="message-cont">
+      <h3><%= message.author %></h3>
+      <p><%= message.message %></p>
+      <p><%= message.formattedDate %></p>
+      <button class="open-detail-btn" data-id=<%= message.id %>>Open</button>
+    </div>
+  <% }) %>
+</div>

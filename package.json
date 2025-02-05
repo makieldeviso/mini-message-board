@@ -4,13 +4,14 @@
   "description": "message board",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch --env-file=.env app.js"
+    "dev": "node --watch --env-file=.env index.js"
   },
   "type": "module",
   "keywords": [],
   "author": "Fred Mark Baldeviso",
   "license": "ISC",
   "dependencies": {
+    "date-fns": "^4.1.0",
     "ejs": "^3.1.10",
     "express": "^4.21.2"
   }
